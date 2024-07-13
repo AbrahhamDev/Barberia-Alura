@@ -1,59 +1,90 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="img-main/logo-blanco.ico">
-    <title>Barbería Alura</title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="assets/img/icon.ico" />
+    <title>Alura Barber Shop</title>
+  </head>
+  <body>
     <header>
-        <div class="navegacion">
-            <a href="index.html" class="logo-link">
-                <img src="img-main/logo-blanco.ico" alt="Logo de mi página" class="logo-header">
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+      <nav>
+        <ul class="nav-menu">
+            <li><a href="#">Story</a></li>
+            <li><a href="#">Services</a></li>
+            <a href="index.html"><img class="logo" src="assets/img/logo-blanco.png" alt="logo Alura barber Shop"></a>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
+    <section class="banner"></section>
     <main>
-        <section class="principal">   
-            <img class="banner" src="img-main/banner-main.jpg" alt="banner">
-            <h2 class="titulo-principal">Barbería Alura</h2>
-            <p>Inspirados en la antigua escuela de barbería clásica, pero con un toque más contemporáneo, en <strong>Barbería Alura</strong> nos esforzamos en brindarte un servicio superior que garantice lograr tu mejor imagen. Un equipo de barberos experimentados y esmerados en darte una cálida atención, complementado con un ambiente moderno, con buena música, permitirán que te relajes y puedas vivir una experiencia barber única.</p>
-        </section>
-        <section class="mapa">
-            <h3 class="titulo-mapa">NUESTRA UBICACIÓN</h3>
-            <p>Nuestro establecimiento esta ubicado en el centro de la ciudad.</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d410.0242861323079!2d-77.03134119378097!3d-12.123754991866988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9ad91349fdf%3A0x33154ab46cc5def4!2sThe%20barber%20company%20-%20Miraflores!5e0!3m2!1ses-419!2spe!4v1683890505057!5m2!1ses-419!2spe" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-        <section class="diferenciales">
-            <img class="imagen-diferenciales" src="img-main/diferenciales.jpg" alt="diferenciales">
-            <h3 class="titulo-diferenciales">DIFERENCIALES</h3>
-            <ul>
-                <li class="items">&star;Atencion personalizada</li>
-                <li class="items">&star;Profesionales calificados</li>
-                <li class="items">&star;Localizacion</li>
-                <br>
-                <li class="items">&star;Ambiente moderno</li>
-            </ul>
-        </section>
-        <div class="video">
-            <h3 class="titulo-mapa">NUESTRA FORMA DE TRABAJO</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Jl-SA86esII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>   
+      <section class="mapa">
+        <h3 class="titulo-mapa">NUESTRA UBICACIÓN</h3>
+        <p>Nuestro establecimiento esta ubicado en el centro de la ciudad.</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d410.0242861323079!2d-77.03134119378097!3d-12.123754991866988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9ad91349fdf%3A0x33154ab46cc5def4!2sThe%20barber%20company%20-%20Miraflores!5e0!3m2!1ses-419!2spe!4v1683890505057!5m2!1ses-419!2spe"
+          width="100%"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      <section class="diferenciales">
+        <img
+          class="imagen-diferenciales"
+          src="img-main/diferenciales.jpg"
+          alt="diferenciales"
+        />
+        <h3 class="titulo-diferenciales">DIFERENCIALES</h3>
+        <ul>
+          <li class="items">&star;Atencion personalizada</li>
+          <li class="items">&star;Profesionales calificados</li>
+          <li class="items">&star;Localizacion</li>
+          <br />
+          <li class="items">&star;Ambiente moderno</li>
+        </ul>
+      </section>
+      <div class="video">
+        <h3 class="titulo-mapa">NUESTRA FORMA DE TRABAJO</h3>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Jl-SA86esII"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <section class="content">
+        <div class="contact-info">
+            <h2>Contact</h2>
+            <p>Downtown Kitchener</p>
+            <p>18 Queen Street South</p>
+            <p>Kitchener, ON</p>
+            <p>N2G 1V6</p>
+            <p>519-954-9333</p>
+            <p>info@abelsonqueen.com</p>
+            <p>Facebook | Instagram</p>
+        </div>
+        <div class="map-container">
+            <img src="assets/img/map.jpeg" alt="Mapa">
+        </div>
+    </section>
     </main>
     <footer>
-        <img class="logo-footer" src="img-productos/logo-blanco.png" alt="logo-footer">
-        <p class="copyright">&copy Copyright Barbería Alura - 2023</p>
+      <img class="logo-footer"
+        src="assets/img/logo-blanco.png"
+        alt="logo-footer"/>
+      <p class="copyright">© 2024 Alura Barber Shop | All Rights Reserved.</p>
     </footer>
-</body>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
